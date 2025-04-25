@@ -23,7 +23,7 @@ function App() {
     fetch(`https://api.weatherapi.com/v1/forecast.json?key=063f662b259a45fd9ca151025252304&q=${city}`)
     .then(response=>{
       if(!response.ok){
-        alert("Location not found")
+        alert("Pls Enter valid location")
       }
       else{
         response.json()

@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    justify-content: center;
+    border: 3px solid blueviolet;
+    padding: 10px;
+    box-shadow: 2px 3px 4px;
+
+}
+#rating{
+    display: flex;
+   column-gap: 8px;
+   flex-wrap: wrap;
+   align-items: center;
+}
+#price{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+#mrp{
+    text-decoration: line-through;
+}
+#chlid3{
+    margin-left: 200px;
+}
+#btn{
+    width: 40px;
+    height: 25px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+#mob-img{
+    cursor: pointer;
+cursor:-webkit-zoom-in;
+}
+#mob-name{
+
+}
+#mob-name:hover{
+    color: blue;
+}
+#offer{
+    color: rgb(4, 185, 4);
+}
